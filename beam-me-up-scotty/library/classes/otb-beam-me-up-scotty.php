@@ -225,7 +225,7 @@ class OTB_Beam_Me_Up_Scotty {
 		}
 				
 		// Handle localisation
-		$this->load_plugin_textdomain();
+		//$this->load_plugin_textdomain();
 		add_action( 'init', array( $this, 'load_localisation' ), 0 );
 		
 		// Add page to menu

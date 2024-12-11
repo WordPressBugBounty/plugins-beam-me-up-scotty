@@ -1,13 +1,13 @@
 <?php
 /*
  * Plugin Name: Beam me up Scotty - Back to Top Button
- * Version: 1.0.22
+ * Version: 1.0.23
  * Plugin URI: https://www.outtheboxthemes.com/wordpress-plugins/beam-me-up-scotty
  * Description: Add a back to top button to your site quickly and easily with this simple and easy to configure plugin.
  * Author: Out the Box
  * Author URI: https://www.outtheboxthemes.com/
  * Requires at least: 4.0
- * Tested up to: 6.6
+ * Tested up to: 6.7
  * Requires PHP: 5.3
  *
  * Text Domain: beam-me-up-scotty
@@ -33,7 +33,7 @@ require_once( 'library/classes/otb-beam-me-up-scotty-admin-api.php' );
  * @return object OTB_Beam_me_up_Scotty
  */
 function OTB_Beam_Me_Up_Scotty () {
-	$instance = OTB_Beam_Me_Up_Scotty::instance( __FILE__, '1.0.22' );
+	$instance = OTB_Beam_Me_Up_Scotty::instance( __FILE__, '1.0.23' );
 
 	if ( is_null( $instance->settings ) ) {
 		$instance->settings = OTB_Beam_Me_Up_Scotty_Settings::instance( $instance );
