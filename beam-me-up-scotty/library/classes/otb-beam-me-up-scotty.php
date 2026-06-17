@@ -108,21 +108,21 @@ class OTB_Beam_Me_Up_Scotty {
 			'namaha' => array (
 				'slug' => 'namaha',
 				'title' => 'Namaha',
-				'thumbnail' => 'https://www.outtheboxthemes.com/wp-content/uploads/2021/04/namaha-imac.png',
+				'thumbnail' => 'https://www.outtheboxthemes.com/wp-content/uploads/2021/04/namaha-imac.webp',
 				'coming_soon' => false,
-				'new' => true
+				'new' => false
 			),
-  			'tropicana' => array (
-				'slug' => 'tropicana',
-				'title' => 'Tropicana',
-			    'thumbnail' => 'https://www.outtheboxthemes.com/wp-content/uploads/2018/07/tropicana-imac.png',
+			'panoramic' => array (
+				'slug' => 'panoramic',
+				'title' => 'Panoramic',
+			    'thumbnail' => 'https://www.outtheboxthemes.com/wp-content/uploads/2015/12/panoramic-imac.webp',
     			'coming_soon' => false,
     			'new' => false
-		  	),
-  			'north-shore' => array (
-				'slug' => 'north-shore',
-				'title' => 'North Shore',
-			    'thumbnail' => 'https://www.outtheboxthemes.com/wp-content/uploads/2018/03/north-shore-imac.png',
+			),
+  			'oceanic' => array (
+				'slug' => 'oceanic',
+				'title' => 'Oceanic',
+			    'thumbnail' => 'https://www.outtheboxthemes.com/wp-content/uploads/2025/02/oceanic-imac.webp',
     			'coming_soon' => false,
     			'new' => false
 		  	),
@@ -140,13 +140,13 @@ class OTB_Beam_Me_Up_Scotty {
     			'coming_soon' => false,
     			'new' => false
 		  	),
-  			'panoramic' => array (
-				'slug' => 'panoramic',
-				'title' => 'Panoramic',
-			    'thumbnail' => 'https://www.outtheboxthemes.com/wp-content/uploads/2015/12/panoramic-imac.png',
+  			'tropicana' => array (
+				'slug' => 'tropicana',
+				'title' => 'Tropicana',
+			    'thumbnail' => 'https://www.outtheboxthemes.com/wp-content/uploads/2018/07/tropicana-imac.png',
     			'coming_soon' => false,
     			'new' => false
-			)
+		  	)
 		);
 		
 		// Check if there are any new themes
@@ -174,7 +174,7 @@ class OTB_Beam_Me_Up_Scotty {
 				'tagline' => 'The quickest way to create testimonial sliders',
 				'thumbnail' => 'https://www.outtheboxthemes.com/wp-content/uploads/2020/07/you-can-quote-me-on-that-imac.png',
 				'coming_soon' => false,
-				'new' => true
+				'new' => false
 			),
   			'super-simple-slider' => array (
 				'slug' => 'super-simple-slider',
@@ -184,6 +184,7 @@ class OTB_Beam_Me_Up_Scotty {
     			'coming_soon' => false,
     			'new' => false
 		  	),
+			/*
   			'same-but-different' => array (
 				'slug' => 'same-but-different',
 				'title' => 'Same but Different',
@@ -192,6 +193,7 @@ class OTB_Beam_Me_Up_Scotty {
     			'coming_soon' => false,
     			'new' => false
 		  	)
+			*/
 		);
 		
 		// Check if there are any new plugins

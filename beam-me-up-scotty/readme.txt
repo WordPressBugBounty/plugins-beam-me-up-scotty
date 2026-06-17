@@ -3,9 +3,9 @@ Contributors: outtheboxthemes
 Donate link: https://www.outtheboxthemes.com
 Tags: back to top, button, link to top, scroll, scroll back to top, scroll to top, scroll top, scroll up, scroller, smooth scroll, top, vertical scroller
 Requires at least: 4.0
-Tested up to: 6.7
+Tested up to: 7.0
 Requires PHP: 5.3
-Stable tag: 1.0.23
+Stable tag: 1.0.24
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,6 +41,10 @@ No, all styling of the button is done with the plugin settings.
 
 
 == Changelog ==
+
+#### 1.0.24
+* New: Added a setting to choose between an arrow icon or the Starfleet delta icon
+* Fix: Fixed back to top button incorrectly hiding after hover when "Hide when not scrolling" is disabled
 
 #### 1.0.23
 * Fix: Fixed a "doing it wrong" notice occurring since 6.7.1 due to translations being called before the init action

@@ -77,7 +77,7 @@ class OTB_Beam_Me_Up_Scotty_Settings {
 					'label'			=> __( 'Icon', 'beam-me-up-scotty' ),
 					'type'			=> 'select',
 					'options'		=> array(
-						'arrow'  		  => 'arrow',
+						'arrow'  		  => 'Arrow',
 						'starfleet-delta' => 'Starfleet delta'
 					),
 					'default'		=> 'arrow',

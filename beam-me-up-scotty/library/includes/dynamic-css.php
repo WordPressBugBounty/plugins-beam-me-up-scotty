@@ -27,10 +27,17 @@ $height = get_option( $this->settings->base . 'height', $this->get_default_value
 
 .otb-beam-me-up-scotty.custom i {
 	line-height: <?php echo $height; ?>px;
+	font-size: <?php echo $height; ?>px;
+}
+
+.otb-beam-me-up-scotty.custom .bmus-icon {
+	width: calc(<?php echo $height; ?>px * 0.6);
+	height: calc(<?php echo $height; ?>px * 0.6);
 }
 
 .otb-beam-me-up-scotty i,
-.otb-beam-me-up-scotty:hover i {
+.otb-beam-me-up-scotty:hover i,
+.bmus-icon-delta {
 	color: <?php echo get_option( $this->settings->base . 'icon_color', $this->get_default_value( 'icon_color' ) ); ?>;
 }
 
